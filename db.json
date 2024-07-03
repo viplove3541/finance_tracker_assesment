@@ -1,67 +1,25 @@
 {
   "transactions": [
     {
-      "id": "2249",
+      "id": "3c21",
       "type": "income",
-      "amount": 25000,
-      "category": "salary",
+      "amount": 64777,
+      "category": "Salary",
       "date": "2024-07-01"
     },
     {
-      "id": "b06f",
+      "id": "eb19",
       "type": "expense",
-      "amount": 10000,
-      "category": "rent",
-      "date": "2024-07-05"
+      "amount": 12000,
+      "category": "Rent",
+      "date": "2024-07-03"
     },
     {
-      "id": "4b60",
+      "id": "5f8d",
       "type": "expense",
-      "amount": 2500,
-      "category": "electricity bill",
-      "date": "2024-07-02"
-    },
-    {
-      "id": "e696",
-      "type": "expense",
-      "amount": 1000,
-      "category": "maintainance",
-      "date": "2024-07-05"
-    },
-    {
-      "id": "6825",
-      "type": "expense",
-      "amount": 500,
-      "category": "maid",
-      "date": "2024-07-10"
-    },
-    {
-      "id": "fdee",
-      "type": "expense",
-      "amount": 250,
-      "category": "milk",
+      "amount": 6300,
+      "category": "Light Bill",
       "date": "2024-07-15"
-    },
-    {
-      "id": "8278",
-      "type": "expense",
-      "amount": 1220,
-      "category": "mobile bill",
-      "date": "2024-07-25"
-    },
-    {
-      "id": "f60a",
-      "type": "income",
-      "amount": 15500,
-      "category": "rent",
-      "date": "2024-07-15"
-    },
-    {
-      "id": "89d9",
-      "type": "expense",
-      "amount": 2500,
-      "category": "gg",
-      "date": "2024-07-16"
     }
   ]
 }
