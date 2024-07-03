@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { AppProvider, useAppContext } from "./context";
+import { useAppContext } from "./context";
 import AddTransaction from "./components/AddTransaction";
 import TransactionList from "./components/TransactionList";
 import Summary from "./components/Summary";
@@ -41,6 +41,11 @@ const Heading = styled.h1`
   margin-bottom: 1rem;
   text-align: center;
   width: 100%;
+`;
+
+const Subscript = styled.sub`
+  font-size: 0.7rem;
+  color: black;
 `;
 
 const ChartContainer = styled.div`
@@ -105,7 +110,10 @@ const App = () => {
 
   return (
     <AppContainer>
-      <Heading>Personal Finance Tracker</Heading>
+      <Heading>
+        Personal Finance Tracker
+        <Subscript>by Viplove</Subscript>
+      </Heading>
       <div style={{ maxWidth: "100%" }}>
         <FilterByDate onFilter={handleFilter} />
         <AddTransaction onAddTransaction={handleAddTransaction} />
