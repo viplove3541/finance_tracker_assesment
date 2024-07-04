@@ -20,6 +20,13 @@
       "amount": 6300,
       "category": "Light Bill",
       "date": "2024-07-15"
+    },
+    {
+      "id": "41e7",
+      "type": "expense",
+      "amount": 800,
+      "category": "gym",
+      "date": "2024-07-20"
     }
   ]
 }

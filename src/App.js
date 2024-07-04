@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useAppContext } from "./context";
-import AddTransaction from "./components/AddTransaction";
-import TransactionList from "./components/TransactionList";
-import Summary from "./components/Summary";
-import CategoryBreakdown from "./components/CategoryBreakdown";
-import FilterByDate from "./components/FilterByDate";
+import AddTransaction from "./Components/AddTransaction";
+import TransactionList from "./Components/TransactionList";
+import Summary from "./Components/Summary";
+import CategoryBreakdown from "./Components/CategoryBreakdown";
+import FilterByDate from "./Components/FilterByDate";
 import styled from "styled-components";
 
 const AppContainer = styled.div`
