@@ -8,21 +8,21 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "chart.js": "^4.4.3",
-    "json-server": "^1.0.0-beta.1",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "recharts": "^2.12.7",
     "styled-components": "^6.1.11",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "json-server": "^0.17.0"  // Add json-server here if not already present
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js",  // Ensure this is set to start your JSON server
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 3001"
+    "server": "json-server --watch db.json --port 3001"  // Modify or remove if necessary
   },
   "eslintConfig": {
     "extends": [
