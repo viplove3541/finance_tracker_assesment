@@ -15,14 +15,14 @@
     "recharts": "^2.12.7",
     "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4",
-    "json-server": "^0.17.0"  // Add json-server here if not already present
+    "json-server": "^0.17.0"
   },
   "scripts": {
-    "start": "node server.js",  // Ensure this is set to start your JSON server
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 3001"  // Modify or remove if necessary
+    "server": "json-server --watch db.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
