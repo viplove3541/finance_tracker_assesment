@@ -1,32 +1,5 @@
 {
   "transactions": [
-    {
-      "id": "3c21",
-      "type": "income",
-      "amount": 64777,
-      "category": "Salary",
-      "date": "2024-07-01"
-    },
-    {
-      "id": "eb19",
-      "type": "expense",
-      "amount": 12000,
-      "category": "Rent",
-      "date": "2024-07-03"
-    },
-    {
-      "id": "5f8d",
-      "type": "expense",
-      "amount": 6300,
-      "category": "Light Bill",
-      "date": "2024-07-15"
-    },
-    {
-      "id": "41e7",
-      "type": "expense",
-      "amount": 800,
-      "category": "gym",
-      "date": "2024-07-20"
-    }
+   
   ]
 }
